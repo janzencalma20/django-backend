@@ -1,0 +1,38 @@
+
+ __pycache__/
+ *.pyc
+=======
+# OSX #
+.DS_Store
+
+# Byte-compiled / optimized / DLL files #
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.egg-info
+
+#Virtual Environments
+venv
+.venv
+
+# Django #
+*.log
+db.sqlite3
+media
+
+# Editor
+.idea
+.vscode
+
+# Credentials
+.env
+.env_dev
+.env_prod
+
+#Results and Debug directories
+Machine_api/LPTN/Results/
+Machine_api/LPTN/JSON/
+Debug
+
+static

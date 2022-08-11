@@ -1,0 +1,119 @@
+{
+    "Airgap": {
+        "AvgTemperature": 152.9,
+        "HeatFluxes": {
+            "RotorLamOuter": 188.78792179049086,
+            "StatorTooth": -132.48201142365895,
+            "StatorWinding": -56.30591036683163
+        },
+        "MaxTemperature": 156.4,
+        "Name": "Airgap"
+    },
+    "EWFluidRotor": {
+        "AvgTemperature": 163.8,
+        "HeatFluxes": {
+            "RotorLamInner": 1.6925085257474444,
+            "RotorLamOuter": 0.6399037188297034,
+            "RotorMagnet": 0.5588676350726782,
+            "Shaft": 4.220798329859044,
+            "StatorWinding": -7.112078209508826
+        },
+        "MaxTemperature": 174.1,
+        "Name": "EWFluidRotor"
+    },
+    "EWFluidStator": {
+        "AvgTemperature": 78.1,
+        "HeatFluxes": {
+            "StatorBackIron": 3.010450232444718,
+            "StatorTooth": 9.830680002598434,
+            "StatorWinding": 0.6580167771537344,
+            "WaterJacket": -13.306176419547683
+        },
+        "MaxTemperature": 81.4,
+        "Name": "EWFluidStator"
+    },
+    "RotorLamInner": {
+        "AvgTemperature": 179.1,
+        "HeatFluxes": {
+            "EWFluidRotor": -1.6925085257474444,
+            "RotorMagnet": 3.813306855606924,
+            "Shaft": -4.220798329858733
+        },
+        "MaxTemperature": 179.6,
+        "Name": "RotorLamInner"
+    },
+    "RotorLamOuter": {
+        "AvgTemperature": 178.4,
+        "HeatFluxes": {
+            "Airgap": -188.78792179049086,
+            "EWFluidRotor": -0.6399037188297034,
+            "RotorMagnet": 105.52782550932068
+        },
+        "MaxTemperature": 179.1,
+        "Name": "RotorLamOuter"
+    },
+    "RotorMagnet": {
+        "AvgTemperature": 179.1,
+        "HeatFluxes": {
+            "EWFluidRotor": -0.5588676350726782,
+            "RotorLamInner": -3.813306855606924,
+            "RotorLamOuter": -105.52782550932068
+        },
+        "MaxTemperature": 179.7,
+        "Name": "RotorMagnet"
+    },
+    "Shaft": {
+        "AvgTemperature": 178.4,
+        "HeatFluxes": {
+            "EWFluidRotor": -4.220798329859044,
+            "RotorLamInner": 4.220798329858733
+        },
+        "MaxTemperature": 179.5,
+        "Name": "Shaft"
+    },
+    "StatorBackIron": {
+        "AvgTemperature": 93.9,
+        "HeatFluxes": {
+            "EWFluidStator": -3.010450232444718,
+            "StatorTooth": 3200.886497485365,
+            "StatorWinding": 346.3248057350716,
+            "WaterJacket": -3799.113019611058
+        },
+        "MaxTemperature": 97.5,
+        "Name": "StatorBackIron"
+    },
+    "StatorTooth": {
+        "AvgTemperature": 117.8,
+        "HeatFluxes": {
+            "Airgap": 132.48201142365895,
+            "EWFluidStator": -9.830680002598434,
+            "StatorBackIron": -3200.886497485365,
+            "StatorTooth": 5.684341886080802e-14,
+            "StatorWinding": 2190.8351660641138
+        },
+        "MaxTemperature": 131.6,
+        "Name": "StatorTooth"
+    },
+    "StatorWinding": {
+        "AvgTemperature": 132.9,
+        "HeatFluxes": {
+            "Airgap": 56.30591036683163,
+            "EWFluidRotor": 7.112078209508826,
+            "EWFluidStator": -0.6580167771537344,
+            "StatorBackIron": -346.3248057350716,
+            "StatorTooth": -2190.8351660641138,
+            "StatorWinding": 2.5346391652192324e-13
+        },
+        "MaxTemperature": 152.3,
+        "Name": "StatorWinding"
+    },
+    "WaterJacket": {
+        "AvgTemperature": 78.2,
+        "HeatFluxes": {
+            "EWFluidStator": 13.306176419547683,
+            "StatorBackIron": 3799.113019611058
+        },
+        "MaxTemperature": 81.0,
+        "Name": "WaterJacket"
+    }
+}
